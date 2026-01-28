@@ -5,7 +5,7 @@ import "swiper/css";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import img1 from "../src/images/CONTAINERIZED & DESALINATION SYSTEMS-images/WhatsApp Image 2026-01-22 at 10.38.50 PM.jpeg";
-import img2 from "../src/images/CONTAINERIZED & DESALINATION SYSTEMS-images/WhatsApp Image 2026-01-22 at 10.39.10 PM.jpeg";
+
 import img3 from "../src/images/CONTAINERIZED & DESALINATION SYSTEMS-images/WhatsApp Image 2026-01-22 at 10.39.12 PM.jpeg";
 import img4 from "../src/images/CONTAINERIZED & DESALINATION SYSTEMS-images/WhatsApp Image 2026-01-22 at 10.40.15 PM (1).jpeg";
 import img5 from "../src/images/CONTAINERIZED & DESALINATION SYSTEMS-images/WhatsApp Image 2026-01-22 at 10.40.15 PM.jpeg"
