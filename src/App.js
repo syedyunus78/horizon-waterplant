@@ -14,6 +14,7 @@ function App() {
    <BrowserRouter>
    <Menu/>
     <Routes>
+       <Route path="/" element={<Homepage />} />
         <Route path="/home" element={<Homepage />} />
           <Route path="/Horizon/:service" element={<Features />} />
           <Route path="/Roplant" element={  <Roplants/>} />
