@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube, FaTwitter } from "react-icons/fa";
-
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -10,63 +10,72 @@ const Footer = () => {
                   <div className="footer-col">
                     <h3>HORIZION</h3>
                     <ul>
-                      <li>History</li>
-                      <li>Mission & Vision</li>
-                      <li>Values</li>
-                      <li>Goals</li>
-                      <li>Contact us</li>
+                      
+                      <li>
+                          <Link to="/History">History</Link>
+                      </li>
+                      <li>
+                        <Link to="/History"> Mission & Vision</Link>
+                       </li>
+                    
+                      <li>
+                        <Link to="/contact"> Contact us</Link>
+                       </li>
                     </ul>
                   </div>
           
                   <div className="footer-col">
                     <h3>Wellness</h3>
                     <ul>
-                      <li>What we do</li>
-                      <li>Our Customers</li>
-                      <li>The Ultimate SPA Experience</li>
-                      <li>Design & build</li>
-                      <li>After-sales</li>
-                      <li>Partners</li>
-                      <li>References</li>
+                      
+                      <li>
+                        <Link to="/History"> Our Customers</Link>
+                       </li>
+                    
+                      <li>
+                        <Link to="/History">Design & build</Link>
+                        </li>
+                      <li>
+                        <Link to="/History">After-sales</Link>
+                      </li>
+                      
                     </ul>
                   </div>
           
                   <div className="footer-col">
-                    <h3>Landscape</h3>
+                    <h3>Zero Percent Discharge</h3>
                     <ul>
-                      <li>What we do</li>
-                      <li>Our Scope of Products</li>
-                      <li>A Memorable Water Show</li>
-                      <li>Design & build</li>
-                      <li>After-sales</li>
-                      <li>Partners</li>
-                      <li>References</li>
+                    
+                     
+                      <li>
+                        <Link to="/evaporator"> Evaporator</Link>
+                       </li>
+                      <li>
+                        <Link to="/fertilzer">Fertilizer</Link>
+                        </li>
+                    
                     </ul>
                   </div>
           
                   <div className="footer-col">
-                    <h3>Water & Treatment</h3>
+                    <h3>Green Environmental</h3>
                     <ul>
-                      <li>What we do</li>
-                      <li>Our Services</li>
-                      <li>Successful Project Delivery</li>
-                      <li>Design & build</li>
-                      <li>After-sales</li>
-                      <li>Partners</li>
-                      <li>References</li>
+                      <li>
+                        <Link to="/sewagetreatmentplant"> Sewage Treatment Plant(STP)</Link>
+                       </li>
+                      <li>
+                        <Link to="/effluentTreatmentPlant">Effluent Treatment Plant (ETP)</Link>
+                        </li>
+                     
+                     
+                     
                     </ul>
                   </div>
                 </div>
           
                 <div className="footer-bottom">
                   <p>HORIZON © 2026 All rights reserved</p>
-                  <div className="social">
-                    <FaFacebookF />
-                    <FaInstagram />
-                    <FaLinkedinIn />
-                    <FaYoutube />
-                    <FaTwitter />
-                  </div>
+                  
                 </div>
               </footer>
         </div>

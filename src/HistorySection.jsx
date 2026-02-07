@@ -10,27 +10,45 @@ export default function HistorySection() {
 
  const content = {
   history: {
-    title: "OUR HISTORY",
-    subtitle: "When water becomes your passion !",
-    text: "It all began with CEO Mr.NASSER MUSLIH ALQURAYQIRI  and Eng. MD Er.MOHAMMED NASSER ALQURAYQIRI, the founder of WATERMASTER s.a.r.l., in 1980 in Lebanon. The objective was to establish a private professional firm engaged in electro-mechanical design and contracting works,WATERMASTER is a 43-year-old, market-leading company that specializes in water-related projects encompassing Wellness & Pools, Water Features, and Water/ Waste Water Treatment. With over 6,000 completed projects around the world and Five branches in Lebanon, Qatar, UAE, Oman, Grenada (Caraibes) and soon in KSA, we have the in-house capabilities and resources to undertake and deliver turnkey projects from A to Z in the role of a complex solution provider,...",
-    image: historyImg
+  title: "OUR HISTORY \n\n\n تاريخنا" ,
+  subtitle: "When water becomes your passion !",
+  text: {
+    en: "It all began with the vision of CEO Mr. Nasser Muslih Alqurayqiri and Eng. Mohammed Nasser Alqurayqiri to establish a private, professional firm based in the Kingdom of Saudi Arabia, specializing in electro-civil-mechanical design and contracting works. Today, the company stands as a 43-years-old, market-leading organization specializing in water-related projects, including Water Features, Water Treatment, and Wastewater Treatment systems. With more than 6,000 successfully completed projects worldwide, it has built a strong reputation for quality, innovation, and reliability. The company operates through a strong international network with a main branch in the Kingdom of Saudi Arabia, along with regional branches across the Middle East including Saudi Arabia (KSA), UAE (Dubai), Qatar, and Oman, and an expanding presence in Africa (such as Egypt), South America (including Brazil and Libya), and Asia, covering India, Singapore, and Malaysia. Its primary production and manufacturing unit is located in India, ensuring cost-effective, high-quality solutions and timely project delivery. With extensive in-house capabilities, experienced engineering teams, and advanced manufacturing facilities, the company is fully equipped to undertake and deliver turnkey projects from A to Z, acting as a comprehensive solution provider for complex water and electro-civil-mechanical systems worldwide.",
+     ar: "بدأت القصة برؤية الرئيس التنفيذي السيد ناصر مصلح القريشي والمهندس محمد ناصر القريشي لتأسيس شركة خاصة واحترافية مقرها في المملكة العربية السعودية، متخصصة في أعمال التصميم والتنفيذ الكهرو-مدنية-الميكانيكية، واليوم تقف الشركة كمنظمة رائدة في السوق منذ أكثر من 43 عامًا ومتخصصة في المشاريع المتعلقة بالمياه بما في ذلك ميزات المياه ومعالجة المياه وأنظمة معالجة مياه الصرف الصحي، ومع أكثر من 6000 مشروع تم تنفيذه بنجاح حول العالم اكتسبت الشركة سمعة قوية في الجودة والابتكار والموثوقية، وتعمل الشركة من خلال شبكة دولية قوية تضم فرعًا رئيسيًا في المملكة العربية السعودية إلى جانب فروع إقليمية في منطقة الشرق الأوسط تشمل المملكة العربية السعودية (KSA) ودولة الإمارات العربية المتحدة (دبي) وقطر وسلطنة عمان إضافة إلى توسع متزايد في أفريقيا مثل مصر وأمريكا الجنوبية بما في ذلك البرازيل وليبيا وآسيا التي تشمل الهند وسنغافورة وماليزيا، ويقع مركز الإنتاج والتصنيع الرئيسي في الهند مما يضمن تقديم حلول عالية الجودة وذات كفاءة من حيث التكلفة مع الالتزام بمواعيد التسليم، وبفضل القدرات الداخلية الواسعة وفرق هندسية ذات خبرة ومرافق تصنيع متقدمة فإن الشركة مؤهلة بالكامل لتنفيذ وتسليم المشاريع بنظام تسليم المفتاح من الألف إلى الياء والعمل كمزود حلول متكامل للأنظمة المعقدة للمياه والأعمال الكهرو-مدنية-الميكانيكية على مستوى العالم.",
   },
+  image: historyImg
+},
   mission: {
-    title: "MISSION & VISION",
+    title: "MISSION & VISION \n\n\n  رسالتنا ورؤيتنا",
     subtitle: "Our purpose and future direction",
-    text: "We provide valuable turnkey solutions with up-to-date technology supported by professional After-Sales services,To be the leading provider of water-related solutions in the MEA region by partnering with global suppliers, and leveraging their latest technologies, while providing a local and customized suitable service fitting all budgets within the quality and timeframe needed,Just as we believe that a safe, timely, trouble-free service based on the highest quality materials is what achieves most appreciation and trust, our vision is to excel by handling all stages of projects, while leveraging the latest technologies. Partnering with world-class experts makes us capable of doing so.Our team counts 1000 employees whose multidisciplinary competences enable the provision of a turnkey effect. We want this potential to be explored in large-scale developments. Our goal is to increase the presence of water in the public space of the MEA region via visual and sensual experience, as well as through smart water management and treatment. ...",
+   text: {
+    en:"We provide valuable turnkey solutions with up-to-date technology supported by professional AMC (Annual Maintenance & Control). Our vision is to be the leading provider of water-related solutions in the MEA region by partnering with global suppliers and leveraging their latest technologies, while delivering localized, customized services that fit all budgets within the required quality standards and timelines. We believe that safe, timely, and trouble-free service based on the highest quality materials is what earns appreciation and trust. By managing all stages of projects and utilizing advanced technologies, along with partnerships with world-class experts, we ensure excellence in every delivery. Our team consists of multidisciplinary professionals whose combined expertise enables the successful execution of turnkey projects, particularly in large-scale developments. Our goal is to enhance the presence of water in public spaces across the MEA region through visual and sensory experiences, supported by smart water management and advanced water treatment solutions.......",
+    ar: "نقدم حلولاً متكاملة بنظام تسليم المفتاح تعتمد على أحدث التقنيات، ومدعومة بخدمات احترافية لإدارة الصيانة والتحكم (AMC – الصيانة والتحكم السنوي). تتمثل رؤيتنا في أن نكون المزود الرائد لحلول المياه في منطقة الشرق الأوسط وأفريقيا (MEA) من خلال الشراكة مع الموردين العالميين والاستفادة من أحدث تقنياتهم، مع تقديم خدمات محلية ومخصصة تناسب جميع الميزانيات وتلبي معايير الجودة المطلوبة والجداول الزمنية المحددة. نؤمن بأن تقديم خدمة آمنة وفي الوقت المناسب وخالية من المشاكل، قائمة على استخدام أعلى جودة من المواد، هو ما يحقق التقدير والثقة. ومن خلال إدارة جميع مراحل المشاريع والاستفادة من التقنيات المتقدمة، إلى جانب الشراكات مع خبراء عالميين، نضمن التميز في كل ما نقدمه. يضم فريقنا نخبة من الكفاءات متعددة التخصصات التي تُمكّننا من تنفيذ مشاريع متكاملة بنجاح، لا سيما في المشاريع الكبرى. وهدفنا هو تعزيز حضور المياه في المساحات العامة في منطقة MEA من خلال تجارب بصرية وحسية مميزة، مدعومة بإدارة ذكية للمياه وحلول متقدمة لمعالجة المياه."
+
+   },
     image: missionImg
   },
   values: {
-    title: "OUR VALUES",
+    title: "OUR VALUES \n\n\n قيمنا",
     subtitle: "What we believe in",
-    text: "Our lust for high quality started as a core feature of a small family business founded 43 years ago. Since then, we have made no compromises, which has led us to evolving into an enterprise applying the highest standards of excellence in everything around us – our realizations, both small and large scale, customer service, management, day-to-day relations with our partners and most of all, our trained staff, machinery and materials.,After almost 43 years of market presence we know it is all because of being radically passionate about water. Without the joy, challenge and sense of fulfilment inherent in our everyday work, this success could never have happened. We strive to make sure that every project that we do is not another task but a memorable experience, both to us and our client,The essence and the main core of the success of HORIZON are the good people standing behind it. They all have the AMC, which is : the Attitude, The Motivation and most importantly the Commitment. We consider our personnel as members of our company. Instead of building clients’ relations, we prefer to treat all our customers as humans - with needs, deserving attention, respect, and understanding,We remain true to our founding values of quality, honesty, mutual respect and hard work – this is what we understand through integrity. We believe that such an attitude has brought HORIZON the privilege of undertaking some of the highest profile projects in the Middle East. We strive to create a rewarding place to work for our employees. The camp where our labors reside, was specially built to meet the highest standards and provide conditions for work-life integration, like sports and health facilities. We have also founded the Passa Foundation – to protect children from the dangers of water. All this to show gratitude for our 43- year long history of balanced growth....",
+    text :{
+      en:"Our lust for high quality started as a core feature of a small family business founded 43 years ago. Since then, we have made no compromises, which has led us to evolving into an enterprise applying the highest standards of excellence in everything around us – our realizations, both small and large scale, customer service, management, day-to-day relations with our partners and most of all, our trained staff, machinery and materials. After almost 43 years of market presence we know it is all because of being radically passionate about water. Without the joy, challenge and sense of fulfilment inherent in our everyday work, this success could never have happened. We strive to make sure that every project that we do is not another task but a memorable experience, both to us and our client. The essence and the main core of the success of HORIZON are the good people standing behind it. They all have the AMC, which is: the Attitude, the Motivation and most importantly the Commitment. We consider our personnel as members of our company. Instead of building clients’ relations, we prefer to treat all our customers as humans – with needs, deserving attention, respect, and understanding. We remain true to our founding values of quality, honesty, mutual respect and hard work – this is what we understand through integrity. We believe that such an attitude has brought HORIZON the privilege of undertaking some of the highest profile projects in the Middle East. We strive to create a rewarding place to work for our employees. The camp where our labors reside was specially built to meet the highest standards and provide conditions for work-life integration, like sports and health facilities. We have also founded the Passa Foundation to protect children from the dangers of water. All this to show gratitude for our 43-year long history of balanced growth.",
+      ar: "بدأ شغفنا بالجودة العالية كعنصر أساسي في شركة عائلية صغيرة تأسست قبل 43 عاماً، ومنذ ذلك الحين لم نقبل بأي تنازلات، مما قادنا إلى التطور كشركة تطبق أعلى معايير التميز في كل ما نقوم به، سواء في إنجازاتنا الصغيرة والكبيرة، أو في خدمة العملاء، أو في أساليب الإدارة، أو في علاقاتنا اليومية مع شركائنا، وقبل كل شيء في كوادرنا المدربة، ومعداتنا، وموادنا. وبعد ما يقارب 43 عاماً من التواجد في السوق، ندرك أن هذا النجاح يعود إلى شغفنا العميق بالمياه. فلولا المتعة والتحدي والشعور بالإنجاز الكامن في عملنا اليومي، لما تحقق هذا النجاح. نحن نحرص على أن يكون كل مشروع ننفذه تجربة مميزة لا مجرد مهمة عابرة، سواء لنا أو لعملائنا. إن جوهر نجاح شركة هورايزن يتمثل في الأشخاص الأكفاء الذين يقفون خلفها، حيث يتمتعون جميعاً بمفهوم AMC، وهو: السلوك، والدافع، والأهم الالتزام. نحن نعتبر موظفينا جزءاً من عائلتنا، وبدلاً من بناء علاقات تقليدية مع العملاء، نفضل التعامل معهم كأشخاص لهم احتياجات ويستحقون الاهتمام والاحترام والتفهم. نلتزم بقيمنا الأساسية المتمثلة في الجودة، والصدق، والاحترام المتبادل، والعمل الجاد، وهو ما نُعبر عنه بالنزاهة. ونؤمن بأن هذا النهج قد منح هورايزن شرف تنفيذ بعض أبرز المشاريع في منطقة الشرق الأوسط. كما نحرص على توفير بيئة عمل مُجزية لموظفينا، حيث تم إنشاء معسكرات سكن العمال وفق أعلى المعايير لتوفير توازن بين العمل والحياة، بما في ذلك المرافق الرياضية والصحية. إضافة إلى ذلك، قمنا بتأسيس مؤسسة باسا لحماية الأطفال من مخاطر المياه، تعبيراً عن امتناننا لمسيرة نمو متوازن امتدت على مدار 43 عاماً."
+
+    }
+ 
+,
     image: ValuesImg
   },
   goals: {
-    title: "OUR GOALS",
+    title: "OUR GOALS \n\n\n أهدافنا",
     subtitle: "Where we are heading",
-    text: "To provide complete valuable turnkey solutions for Water Features based on up-to-date technology supported by professional After-Sales support.,To distinguish ourselves and become the leading firm in MEA region in Water Features solutions....",
+   text: {
+  en: "To provide complete and valuable turnkey solutions for Water Features based on up-to-date technology, supported by professional after-sales services. Our aim is to distinguish ourselves and become the leading firm in the MEA region for Water Features solutions.",
+  ar: "لتقديم حلول متكاملة وقيمة لتصميم وتنفيذ ميزات المياه، تعتمد على أحدث التقنيات ومدعومة بخدمات احترافية لما بعد البيع. ونسعى إلى تمييز أنفسنا وأن نصبح الشركة الرائدة في منطقة الشرق الأوسط وأفريقيا في حلول ميزات المياه."
+}
+
+,
      image: goalsImg
   }
 };
@@ -49,11 +67,17 @@ export default function HistorySection() {
           <img src={content[activeTab].image} alt={content[activeTab].title} />
         </div>
 
-        <div className="history-text">
-          <h2>{content[activeTab].title}</h2>
-          <h4>{content[activeTab].subtitle}</h4>
-          <p>{content[activeTab].text}</p>
-        </div>
+       <div className="history-text">
+  <h2>{content[activeTab].title}</h2>
+  <h4>{content[activeTab].subtitle}</h4>
+
+  <p>
+    {content[activeTab].text.en}
+    <br />
+    <br />
+    <span dir="rtl">{content[activeTab].text.ar}</span>
+  </p>
+</div>
       </div>
 
     </div>

@@ -33,6 +33,11 @@ const Menu = () => {
              <Link to="/contact" onClick={() => setOpen(false)}>
             <span>CONTACT-US</span> 
             </Link>
+           
+            <Link to="/designingbuild" onClick={() => setOpen(false)}>
+            <span> Designingbuild</span> 
+            </Link>
+
             <span>REFERENCES</span>
           </div>
         </div>

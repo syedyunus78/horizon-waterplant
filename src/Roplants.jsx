@@ -4,11 +4,11 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import { Link } from "react-router-dom";
 
-import img6 from "../src/images/ROdrinkingSystem/WhatsApp Image 2026-01-22 at 9.48.24 PM.jpeg";
-import img7 from "../src/images/ROdrinkingSystem/WhatsApp Image 2026-01-22 at 9.48.40 PM.jpeg";
-import img8 from "../src/images/ROdrinkingSystem/WhatsApp Image 2026-01-22 at 9.48.42 PM.jpeg";
-import img9 from "../src/images/ROdrinkingSystem/WhatsApp Image 2026-01-22 at 9.48.43 PM.jpeg";
-import img10 from "../src/images/ROdrinkingSystem/WhatsApp Image 2026-01-22 at 9.48.49 PM.jpeg";
+import img6 from "../src/images/ROdrinkingSystem/ro1.jpeg";
+import img7 from "../src/images/ROdrinkingSystem/ro2h.jpeg";
+import img8 from "../src/images/ROdrinkingSystem/ro3.jpeg";
+import img9 from "../src/images/ROdrinkingSystem/ro4.jpeg";
+import img10 from "../src/images/ROdrinkingSystem/ro5.jpeg";
 
 const Roplants = () => {
 
