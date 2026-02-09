@@ -70,9 +70,6 @@ By integrating advanced evaporator technology, facilities can minimize environme
         ))}
       </Swiper>
 
-
-
-
       {sections.map((item, index) => (
         <div
           key={item.id}

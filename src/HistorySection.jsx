@@ -1,21 +1,33 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import historyImg from "../src/images/WhatsApp Image 2026-01-20 at 10.10.01 PM.jpeg";
 import missionImg from "../src/images/misson.jpeg";
 import ValuesImg from "../src/images/values.jpeg";
 import goalsImg from "../src/images/WhatsApp Image 2026-01-22 at 10.38.48 PM.jpeg"
+import { useParams } from "react-router-dom";
 
 export default function HistorySection() {
+
+   const { tab } = useParams();
+
   const [activeTab, setActiveTab] = useState("history");
+
+  useEffect(() => {
+    if (tab) {
+      setActiveTab(tab);
+    }
+  }, [tab]);
+ 
 
  const content = {
   history: {
-  title: "OUR HISTORY \n\n\n تاريخنا" ,
-  subtitle: "When water becomes your passion !",
-  text: {
-    en: "It all began with the vision of CEO Mr. Nasser Muslih Alqurayqiri and Eng. Mohammed Nasser Alqurayqiri to establish a private, professional firm based in the Kingdom of Saudi Arabia, specializing in electro-civil-mechanical design and contracting works. Today, the company stands as a 43-years-old, market-leading organization specializing in water-related projects, including Water Features, Water Treatment, and Wastewater Treatment systems. With more than 6,000 successfully completed projects worldwide, it has built a strong reputation for quality, innovation, and reliability. The company operates through a strong international network with a main branch in the Kingdom of Saudi Arabia, along with regional branches across the Middle East including Saudi Arabia (KSA), UAE (Dubai), Qatar, and Oman, and an expanding presence in Africa (such as Egypt), South America (including Brazil and Libya), and Asia, covering India, Singapore, and Malaysia. Its primary production and manufacturing unit is located in India, ensuring cost-effective, high-quality solutions and timely project delivery. With extensive in-house capabilities, experienced engineering teams, and advanced manufacturing facilities, the company is fully equipped to undertake and deliver turnkey projects from A to Z, acting as a comprehensive solution provider for complex water and electro-civil-mechanical systems worldwide.",
-     ar: "بدأت القصة برؤية الرئيس التنفيذي السيد ناصر مصلح القريشي والمهندس محمد ناصر القريشي لتأسيس شركة خاصة واحترافية مقرها في المملكة العربية السعودية، متخصصة في أعمال التصميم والتنفيذ الكهرو-مدنية-الميكانيكية، واليوم تقف الشركة كمنظمة رائدة في السوق منذ أكثر من 43 عامًا ومتخصصة في المشاريع المتعلقة بالمياه بما في ذلك ميزات المياه ومعالجة المياه وأنظمة معالجة مياه الصرف الصحي، ومع أكثر من 6000 مشروع تم تنفيذه بنجاح حول العالم اكتسبت الشركة سمعة قوية في الجودة والابتكار والموثوقية، وتعمل الشركة من خلال شبكة دولية قوية تضم فرعًا رئيسيًا في المملكة العربية السعودية إلى جانب فروع إقليمية في منطقة الشرق الأوسط تشمل المملكة العربية السعودية (KSA) ودولة الإمارات العربية المتحدة (دبي) وقطر وسلطنة عمان إضافة إلى توسع متزايد في أفريقيا مثل مصر وأمريكا الجنوبية بما في ذلك البرازيل وليبيا وآسيا التي تشمل الهند وسنغافورة وماليزيا، ويقع مركز الإنتاج والتصنيع الرئيسي في الهند مما يضمن تقديم حلول عالية الجودة وذات كفاءة من حيث التكلفة مع الالتزام بمواعيد التسليم، وبفضل القدرات الداخلية الواسعة وفرق هندسية ذات خبرة ومرافق تصنيع متقدمة فإن الشركة مؤهلة بالكامل لتنفيذ وتسليم المشاريع بنظام تسليم المفتاح من الألف إلى الياء والعمل كمزود حلول متكامل للأنظمة المعقدة للمياه والأعمال الكهرو-مدنية-الميكانيكية على مستوى العالم.",
-  },
+ title: "OUR HISTORY \n\n\n تاريخنا",
+subtitle: "When water becomes your passion !",
+text: {
+  en: "It all began with the vision of CEO Mr. Nasser Muslih Alqurayqiri and Eng. Mohammed Nasser Alqurayqiri to establish a private, professional firm based in the Kingdom of Saudi Arabia, specializing in electro-civil-mechanical design and contracting works. Today, the company stands as a 43-year-old, market-leading organization specializing in water-related projects, including Water Features, Water Treatment, and Wastewater Treatment systems. With more than 6,000 successfully completed projects worldwide, it has built a strong reputation for quality, innovation, and reliability. The company operates through a strong international network with a main branch in the Kingdom of Saudi Arabia, along with regional branches across the Middle East including Saudi Arabia (KSA), UAE (Dubai), Qatar, and Oman, and an expanding presence in Africa such as Egypt, Kenya, Uganda, and Libya, South America including Brazil, and Asia covering India, Singapore, and Malaysia. Its primary production and manufacturing unit is located in India, ensuring cost-effective, high-quality solutions and timely project delivery. With extensive in-house capabilities, experienced engineering teams, and advanced manufacturing facilities, the company is fully equipped to undertake and deliver turnkey projects from A to Z, acting as a comprehensive solution provider for complex water and electro-civil-mechanical systems worldwide.",
+  ar: "بدأت القصة برؤية الرئيس التنفيذي السيد ناصر مصلح القريشي والمهندس محمد ناصر القريشي لتأسيس شركة خاصة واحترافية مقرها في المملكة العربية السعودية، متخصصة في أعمال التصميم والتنفيذ الكهرو-مدنية-الميكانيكية. واليوم تقف الشركة كمنظمة رائدة في السوق منذ أكثر من 43 عامًا، ومتخصصة في المشاريع المتعلقة بالمياه بما في ذلك ميزات المياه، ومعالجة المياه، وأنظمة معالجة مياه الصرف الصحي. ومع تنفيذ أكثر من 6000 مشروع ناجح حول العالم، اكتسبت الشركة سمعة قوية في الجودة والابتكار والموثوقية. تعمل الشركة من خلال شبكة دولية قوية تضم فرعًا رئيسيًا في المملكة العربية السعودية، إلى جانب فروع إقليمية في منطقة الشرق الأوسط تشمل المملكة العربية السعودية (KSA)، ودولة الإمارات العربية المتحدة (دبي)، وقطر، وسلطنة عمان، إضافة إلى توسع متزايد في أفريقيا مثل مصر وكينيا وأوغندا وليبيا، وأمريكا الجنوبية بما في ذلك البرازيل، وآسيا التي تشمل الهند وسنغافورة وماليزيا. ويقع مركز الإنتاج والتصنيع الرئيسي في الهند، مما يضمن تقديم حلول عالية الجودة وفعّالة من حيث التكلفة مع الالتزام بمواعيد التسليم. وبفضل القدرات الداخلية الواسعة، وفرق هندسية ذات خبرة، ومرافق تصنيع متقدمة، فإن الشركة مؤهلة بالكامل لتنفيذ وتسليم المشاريع بنظام تسليم المفتاح من الألف إلى الياء، والعمل كمزود حلول متكامل للأنظمة المعقدة للمياه والأعمال الكهرو-مدنية-الميكانيكية على مستوى العالم."
+}
+,
   image: historyImg
 },
   mission: {
@@ -23,7 +35,8 @@ export default function HistorySection() {
     subtitle: "Our purpose and future direction",
    text: {
     en:"We provide valuable turnkey solutions with up-to-date technology supported by professional AMC (Annual Maintenance & Control). Our vision is to be the leading provider of water-related solutions in the MEA region by partnering with global suppliers and leveraging their latest technologies, while delivering localized, customized services that fit all budgets within the required quality standards and timelines. We believe that safe, timely, and trouble-free service based on the highest quality materials is what earns appreciation and trust. By managing all stages of projects and utilizing advanced technologies, along with partnerships with world-class experts, we ensure excellence in every delivery. Our team consists of multidisciplinary professionals whose combined expertise enables the successful execution of turnkey projects, particularly in large-scale developments. Our goal is to enhance the presence of water in public spaces across the MEA region through visual and sensory experiences, supported by smart water management and advanced water treatment solutions.......",
-    ar: "نقدم حلولاً متكاملة بنظام تسليم المفتاح تعتمد على أحدث التقنيات، ومدعومة بخدمات احترافية لإدارة الصيانة والتحكم (AMC – الصيانة والتحكم السنوي). تتمثل رؤيتنا في أن نكون المزود الرائد لحلول المياه في منطقة الشرق الأوسط وأفريقيا (MEA) من خلال الشراكة مع الموردين العالميين والاستفادة من أحدث تقنياتهم، مع تقديم خدمات محلية ومخصصة تناسب جميع الميزانيات وتلبي معايير الجودة المطلوبة والجداول الزمنية المحددة. نؤمن بأن تقديم خدمة آمنة وفي الوقت المناسب وخالية من المشاكل، قائمة على استخدام أعلى جودة من المواد، هو ما يحقق التقدير والثقة. ومن خلال إدارة جميع مراحل المشاريع والاستفادة من التقنيات المتقدمة، إلى جانب الشراكات مع خبراء عالميين، نضمن التميز في كل ما نقدمه. يضم فريقنا نخبة من الكفاءات متعددة التخصصات التي تُمكّننا من تنفيذ مشاريع متكاملة بنجاح، لا سيما في المشاريع الكبرى. وهدفنا هو تعزيز حضور المياه في المساحات العامة في منطقة MEA من خلال تجارب بصرية وحسية مميزة، مدعومة بإدارة ذكية للمياه وحلول متقدمة لمعالجة المياه."
+    ar: "نقدم حلولاً متكاملة بنظام تسليم المفتاح تعتمد على أحدث التقنيات، ومدعومة بخدمات احترافية لإدارة الصيانة والتحكم (AMC – الصيانة والتحكم السنوي). تتمثل رؤيتنا في أن نكون المزود الرائد لحلول المياه في منطقة الشرق الأوسط وأفريقيا (MEA)، من خلال الشراكة مع الموردين العالميين والاستفادة من أحدث ما توصلت إليه التقنيات، مع تقديم خدمات محلية ومخصصة تلائم مختلف الميزانيات، وتلتزم بأعلى معايير الجودة والجداول الزمنية المحددة. نؤمن بأن تقديم خدمات آمنة، وفي الوقت المناسب، وخالية من المشاكل، بالاعتماد على أعلى جودة من المواد، هو الأساس لاكتساب ثقة وتقدير عملائنا. ومن خلال إدارة جميع مراحل المشاريع بكفاءة، واستخدام التقنيات المتقدمة، إلى جانب الشراكات مع خبراء عالميين من الطراز الأول، نضمن التميز في كل مرحلة من مراحل التنفيذ. يضم فريقنا كوادر متعددة التخصصات تمتلك خبرات متكاملة تُمكّننا من تنفيذ مشاريع تسليم مفتاح بنجاح، لا سيما في المشاريع واسعة النطاق. ويتمثل هدفنا في تعزيز حضور المياه في المساحات العامة في منطقة MEA من خلال تجارب بصرية وحسية متميزة، مدعومة بحلول ذكية لإدارة المياه وأنظمة متقدمة لمعالجة المياه."
+
 
    },
     image: missionImg
@@ -56,10 +69,33 @@ export default function HistorySection() {
     <div className="history-wrapper">
 
       <div className="history-tabs">
-        <span className={activeTab === "history" ? "active" : ""} onClick={() => setActiveTab("history")}>HISTORY</span>
-        <span className={activeTab === "mission" ? "active" : ""} onClick={() => setActiveTab("mission")}>MISSION & VISION</span>
-        <span className={activeTab === "values" ? "active" : ""} onClick={() => setActiveTab("values")}>VALUES</span>
-        <span className={activeTab === "goals" ? "active" : ""} onClick={() => setActiveTab("goals")}>GOALS</span>
+         <span
+          className={activeTab === "history" ? "active" : ""}
+          onClick={() => setActiveTab("history")}
+        >
+          HISTORY
+        </span>
+
+        <span
+          className={activeTab === "mission" ? "active" : ""}
+          onClick={() => setActiveTab("mission")}
+        >
+          MISSION & VISION
+        </span>
+
+        <span
+          className={activeTab === "values" ? "active" : ""}
+          onClick={() => setActiveTab("values")}
+        >
+          VALUES
+        </span>
+
+        <span
+          className={activeTab === "goals" ? "active" : ""}
+          onClick={() => setActiveTab("goals")}
+        >
+          GOALS
+        </span>
       </div>
 
       <div className="history-content">

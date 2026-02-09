@@ -2,7 +2,6 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Homepage from './Homepage';
-import Menu from './Menu';
 import Features from './Features';
 import Roplants from './Roplants';
 import HistorySection from './HistorySection';
@@ -12,58 +11,45 @@ import DesigningBuild from './DesigningBuild';
 import GreenEnvironmental from './GreenEnvironmental';
 import EffluentTreatmentPlant from './EffluentTreatmentPlant';
 import ZeroPercentagedischarge from './ZeroPercentagedischarge';
-import GoalFertilzer from './GoalFertilzer';
 import logo from "../src/images/horizionlogonew.jpeg"
 import { Link } from "react-router-dom";
 import WaterEvaporator from './WaterEvaporator';
 import Waterfertilzer from './Waterfertilzer';
+import Designandbuild from './Designandbuild';
+import AfterSales from './AfterSales';
+import Ourcustomer from './Ourcustomer';
 
 function App() {
   return (
     <BrowserRouter>
-
-
-<div className="fixed-logo">
-  <Link to="/home">
-    <img src={logo} alt="Logo" />
-  </Link>
-</div>
-
-
- 
-
+      <div className="fixed-logo">
+        <Link to="/home">
+          <img src={logo} alt="Logo" />
+        </Link>
+      </div>
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/home" element={<Homepage />} />
         <Route path="/Horizon/:service" element={<Features />} />
         <Route path="/Roplant" element={<Roplants />} />
-        <Route path="/History" element={<HistorySection />} />
+        <Route path="/history/:tab?" element={<HistorySection />} />
         <Route path="/contact" element={<Contact />} />
-          <Route path="/sewagetreatmentplant" element={ <DesigningBuild/>} />
-
-  <Route path="/effluentTreatmentPlant" element={  <EffluentTreatmentPlant/>} />
-    {/* <Route path="/designingbuild" element={ <DesigningBuild/>} /> */}
-      <Route path="/greenEnvironmental" element={  <GreenEnvironmental/>} />
-        <Route path="/zeropercentagedischarge" element={  <ZeroPercentagedischarge/>} />
-          <Route path="/evaporator" element={  <WaterEvaporator/>} />
-            <Route path="/fertilzer" element={ <Waterfertilzer/>} />
-        
-         
-         
-         
-           
-         
-          
-          
-        
-       
+        <Route path="/sewagetreatmentplant" element={<DesigningBuild />} />
+        <Route path="/effluentTreatmentPlant" element={<EffluentTreatmentPlant />} />
+        <Route path="/greenEnvironmental" element={<GreenEnvironmental />} />
+        <Route path="/zeropercentagedischarge" element={<ZeroPercentagedischarge />} />
+        <Route path="/evaporator" element={<WaterEvaporator />} />
+        <Route path="/fertilzer" element={<Waterfertilzer />} />
+        <Route path="/designandbuild" element={<Designandbuild />} />
+        <Route path="/aftersales" element={<AfterSales />} />
+        <Route path="/ourcustomer" element={<Ourcustomer />} />
       </Routes>
 
       {/* WhatsApp Fixed Button */}
       <a
-        href="https://wa.me/919999999999"   // replace with your number
+        href="https://wa.me/966557060608"   // replace with your number
         className="whatsapp-float"
-        target="_blank"
+        target="blank"
         rel="noopener noreferrer"
       >
         <img
@@ -71,8 +57,6 @@ function App() {
           alt="WhatsApp"
         />
       </a>
-
-
       <Footer />
     </BrowserRouter>
   );

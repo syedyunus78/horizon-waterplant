@@ -3,57 +3,62 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import { Link } from "react-router-dom";
-import img11 from "../src/images/Untitled-design-2025-12-15T165617.621 (1).webp";
+
+import img11 from "../src/images/ETPTORO/etptoro7 (3).jpeg"
 import img12 from "../src/images/wastewater-treatment-plants-1000x1000college.webp";
-import img13 from "../src/images/Sewage-Treatment-For-Resorts-1024x768resort.webp";
-import img14 from "../src/images/stpindustries.jpg"
-import img15 from "../src/images/stp-plant-for-hospitals-1000x1000.jpg"
-import img16 from "../src/images/water-and-sewage-treatment-plant-service-1000x1000beach.png"
+
+import img14 from "../src/images/textile-industry-wastewater-treatment-plant-1000x1000.jpg"
 
 const EffluentTreatmentPlant = () => {
  const swiperImages = [
     { img: img11 },
     { img: img12 },
-    { img: img13 },
     { img: img14 },
-    { img: img15 },
-    { img: img16 }
+    
   ]
     ;
 
   const sections = [
-    {
+ {
   id: 1,
-  title: "Industrial Wastewater Treatment",
-  content: `Industrial Wastewater Treatment systems are designed to treat effluents generated from manufacturing units, processing plants, and industrial operations. These systems effectively remove suspended solids, oils, chemicals, and organic pollutants before safe discharge or reuse.
+  title: "Industrial  Treatment plant",
+  content: {
+    en: `Industrial  Treatment systems are designed to treat effluents generated from manufacturing units, processing plants, and industrial operations. These systems effectively remove suspended solids, oils, chemicals, and organic pollutants before safe discharge or reuse.
 
 Our solutions ensure compliance with environmental regulations, reduce water consumption, and support sustainable industrial operations.`,
+    ar: `تم تصميم أنظمة معالجة مياه الصرف الصناعي لمعالجة المخلفات الناتجة عن الوحدات الإنتاجية والمصانع والعمليات الصناعية. تقوم هذه الأنظمة بإزالة المواد الصلبة العالقة والزيوت والمواد الكيميائية والملوثات العضوية بشكل فعال قبل التصريف الآمن أو إعادة الاستخدام.
+
+تضمن حلولنا الامتثال للوائح البيئية، وتقليل استهلاك المياه، ودعم العمليات الصناعية المستدامة.`
+  },
   img: img12
 },
 {
   id: 2,
-  title: "Poultry Farm Wastewater Treatment",
-  content: `Poultry Farm Wastewater Treatment Plants are designed to handle wastewater containing high organic load, blood residues, fats, and nutrients generated from poultry processing and cleaning activities.
+  title: "Poultry Farm  Treatment plant",
+  content: {
+    en: `Poultry Farm  Treatment Plants are designed to handle  containing high organic load, blood residues, fats, and nutrients generated from poultry processing and cleaning activities.
 
 The treatment process minimizes odor, controls pathogens, and enables safe disposal or reuse of treated water while maintaining hygienic and environmental standards.`,
+    ar: `تم تصميم محطات معالجة مياه الصرف لمزارع الدواجن للتعامل مع مياه الصرف التي تحتوي على حمولة عضوية عالية وبقايا دم ودهون وعناصر غذائية ناتجة عن عمليات تجهيز وتنظيف الدواجن.
+
+تقلل عملية المعالجة من الروائح وتتحكم في مسببات الأمراض، وتمكّن من التخلص الآمن من المياه المعالجة أو إعادة استخدامها مع الحفاظ على المعايير الصحية والبيئية.`
+  },
   img: img11
 },
+
 {
   id: 3,
-  title: "Leather Processing Wastewater Treatment",
-  content: `Leather Processing Wastewater Treatment Plants are engineered to treat effluents containing chemicals such as chromium, sulfides, lime, and high organic content generated during tanning and leather finishing processes.
-
-Our systems ensure effective removal of toxic contaminants, safe discharge, and compliance with strict environmental norms.`,
-  img: img13
-},
-{
-  id: 4,
-  title: "Garment Industry Wastewater Treatment",
-  content: `Garment Industry Wastewater Treatment Plants are designed to treat effluents generated from dyeing, washing, bleaching, and finishing processes. These effluents typically contain color, chemicals, and dissolved solids.
+  title: "Garment Industry  Treatment plant",
+  content: {
+    en: `Garment Industry  Treatment Plants are designed to treat effluents generated from dyeing, washing, bleaching, and finishing processes. These effluents typically contain color, chemicals, and dissolved solids.
 
 The treatment system ensures color removal, water recovery, and environmentally safe discharge, supporting sustainable textile operations.`,
+    ar: `تم تصميم محطات معالجة مياه الصرف لصناعة الملابس لمعالجة المخلفات الناتجة عن عمليات الصباغة والغسيل والتبييض والتشطيب. تحتوي هذه المخلفات عادة على ألوان ومواد كيميائية ومواد صلبة ذائبة.
+
+يضمن نظام المعالجة إزالة الألوان، واستعادة المياه، والتصريف البيئي الآمن، لدعم العمليات النسيجية المستدامة.`
+  },
   img: img14
-},
+}
 
 
 
@@ -114,7 +119,10 @@ The treatment system ensures color removal, water recovery, and environmentally 
               <div className="section-bar">
                 <h2>{item.title}</h2>
               </div>
-              <p>{item.content}</p>
+
+
+              <p>{item.content.en}</p>
+              <p>{item.content.ar}</p>
             </div>
 
             <div className="wm-image">

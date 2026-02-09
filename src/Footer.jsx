@@ -11,12 +11,13 @@ const Footer = () => {
                     <h3>HORIZION</h3>
                     <ul>
                       
-                      <li>
-                          <Link to="/History">History</Link>
-                      </li>
-                      <li>
-                        <Link to="/History"> Mission & Vision</Link>
-                       </li>
+                       <li>
+          <Link to="/history/history">History</Link>
+        </li>
+
+        <li>
+          <Link to="/history/mission">Mission & Vision</Link>
+        </li>
                     
                       <li>
                         <Link to="/contact"> Contact us</Link>
@@ -29,14 +30,14 @@ const Footer = () => {
                     <ul>
                       
                       <li>
-                        <Link to="/History"> Our Customers</Link>
+                        <Link to="/ourcustomer"> Our Customers</Link>
                        </li>
                     
                       <li>
-                        <Link to="/History">Design & build</Link>
+                        <Link to="/designandbuild">Design & build</Link>
                         </li>
                       <li>
-                        <Link to="/History">After-sales</Link>
+                        <Link to="/aftersales">After-sales</Link>
                       </li>
                       
                     </ul>

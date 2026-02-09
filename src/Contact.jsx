@@ -23,7 +23,7 @@ export default function Contact() {
   e.preventDefault();
 
   // ✅ Include country code (91 for India), no +, no spaces
-  const whatsappNumber = "919884955571";
+  const whatsappNumber = "966557060608";
 
   const text = `
 *Contact Form Details*
@@ -92,47 +92,47 @@ Message: ${formData.message}
   <h2 className="office-title">📍 Head Office Location</h2>
 
   <div className="office-info">
-    <p className="company-name">HORIZION  تاريخنا</p>
+    <p className="company-name">HORIZON &nbsp; | &nbsp; تاريخنا</p>
 
- <p className="office-line">
-  <span>📞</span>
-  +966 557 060 608 &nbsp; | &nbsp;
-  <span style={{ direction: "ltr", unicodeBidi: "bidi-override" }}>
-    +٩٦٦ ٥٥٧ ٠٦٠ ٦٠٨
-  </span>
-</p>
+    {/* Phone Numbers */}
+    <p className="office-line">
+      <span>📞</span>
+      +966 557 060 608 &nbsp; | &nbsp;
+      <span style={{ direction: "ltr", unicodeBidi: "bidi-override" }}>
+        +٩٦٦ ٥٥٧ ٠٦٠ ٦٠٨
+      </span>
+    </p>
 
-  
+    {/* Landline */}
+    <p className="office-line">
+      <span>☎️</span>
+      012-6930524 &nbsp; | &nbsp;
+      <span style={{ direction: "ltr", unicodeBidi: "bidi-override" }}>
+        ٠١٢-٦٩٣٠٥٢٤
+      </span>
+    </p>
 
-  <p className="office-line">
-  <span>☎️</span>
-  012-6930524 &nbsp; | &nbsp;
-  <span style={{ direction: "ltr", unicodeBidi: "bidi-override" }}>
-    ٠١٢-٦٩٣٠٥٢٤
-  </span>
-</p>
+    {/* Email */}
+    <p className="office-line">
+      <span>📧</span>
+     Horizon-des@hotmail.com &nbsp; ;
+     
+    </p>
 
-
+    {/* English Address */}
     <p className="office-address">
       <span>📍</span>
-     Postal Code 23762,
-Ahmad Nazreen Street ,
-Al Falah District ,
-Jeddah city ,
-Kingdom of Saudi Arabia
-
- 
+      Postal Code 23762, Ahmad Nazreen Street, Al Falah District, Jeddah city, Kingdom of Saudi Arabia
     </p>
-     <p className="office-address">
-    <span >📍</span>
-  الرمز البريدي ٢٣٧٦٢،
-  شارع أحمد نازرين،
-  حي الفلاح،
-  مدينة جدة،
-  المملكة العربية السعودية
-  </p>
+
+    {/* Arabic Address */}
+    <p className="office-address">
+      <span>📍</span>
+      الرمز البريدي ٢٣٧٦٢، شارع أحمد نازرين، حي الفلاح، مدينة جدة، المملكة العربية السعودية
+    </p>
   </div>
 </div>
+
 
 
     <div className="map-container">

@@ -1,5 +1,4 @@
 import React from 'react'
-import img1 from "../src/images/ULTRAFILTRATIONSYSTEM/WhatsApp Image 2026-01-22 at 10.38.39 PM.jpeg";
 import img2 from "../src/images/ROdrinkingSystem/ro2h.jpeg";
 import ufhomeimg from "../src/images/ufhome1.jpeg"
 import img3 from "../src/images/CONTAINERIZED & DESALINATION SYSTEMS-images/ds1.jpeg";
