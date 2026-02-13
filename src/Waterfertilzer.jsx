@@ -8,7 +8,7 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import { Link } from "react-router-dom";
 import img11 from "../src/images/Fish-Bone-Meal-Fertilizer-Batch-Cooker-for-Customized-Capacity.avif";
-import img12 from "../src/images/fertilzer22.png";
+import img12 from "../src/images/Industrial water treatment setup in warehouse.png";
 
 
 const Waterfertilzer = () => {

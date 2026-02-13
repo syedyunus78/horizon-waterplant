@@ -1,9 +1,9 @@
 import React from 'react'
 import img2 from "../src/images/ROdrinkingSystem/ro2h.jpeg";
 import ufhomeimg from "../src/images/ufhome1.jpeg"
-import img3 from "../src/images/CONTAINERIZED & DESALINATION SYSTEMS-images/ds1.jpeg";
+import img3 from "../src/images/CONTAINERIZED & DESALINATION SYSTEMS-images/desalinationnewhomepage.jpeg";
 import { useNavigate } from "react-router-dom";
-
+import img23 from "../src/images/ETPTORO/etptoro9.jpeg"
 const Homepage = () => {
   return (
     <div className="services">  
@@ -15,7 +15,7 @@ const Homepage = () => {
       containImage   // 👈 only for 2nd card
     />
 
-      <Card title="ETP TO UF SYSTEM" slug="ultra-filtration-etp-ro" img={ufhomeimg}  />
+      <Card title="ETP TO UF SYSTEM" slug="ultra-filtration-etp-ro" img={img23}  />
     </div>
   );
 };

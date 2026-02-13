@@ -4,7 +4,7 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
-import img1 from "../src/images/CONTAINERIZED & DESALINATION SYSTEMS-images/ds1.jpeg";
+import img1 from "../src/images/CONTAINERIZED & DESALINATION SYSTEMS-images/whowearedesalinationnew.jpeg";
 import img2 from "../src/images/CONTAINERIZED & DESALINATION SYSTEMS-images/ds5.jpeg";
 import img3 from "../src/images/CONTAINERIZED & DESALINATION SYSTEMS-images/ds2.jpeg";
 import img4 from "../src/images/CONTAINERIZED & DESALINATION SYSTEMS-images/ds3.jpeg";
@@ -15,11 +15,11 @@ import img109 from "../src/images/CONTAINERIZED & DESALINATION SYSTEMS-images/ds
 import img110 from "../src/images/CONTAINERIZED & DESALINATION SYSTEMS-images/ds9.jpeg";
 
 
-import img6 from "../src/images/ROdrinkingSystem/ronew1.jpeg"
+import img6 from "../src/images/ROdrinkingSystem/ronew1manic.jpeg"
 import img7 from "../src/images/ROdrinkingSystem/ro2h.jpeg"
 import img8 from "../src/images/ROdrinkingSystem/ro3.jpeg"
 import img9 from "../src/images/ROdrinkingSystem/ro4.jpeg"
-import img10 from "../src/images/ROdrinkingSystem/ro5.jpeg"
+import img10 from "../src/images/ROdrinkingSystem/roplant2imgnew.jpeg"
 import img11 from "../src/images/ROdrinkingSystem/ro6.jpeg"
 import img12 from "../src/images/ROdrinkingSystem/ro7.jpeg"
 import img13 from "../src/images/ROdrinkingSystem/ro8.jpeg"
@@ -233,7 +233,7 @@ const Features = () => {
           title: "Who we are",
           content: {
             en: `Horizon is a market-leading company that specializes in water-related projects encompassing Water Features and Water / Waste Water Treatment. 
-With over 6,000 completed projects around the world and three branches in Lebanon, Qatar and UAE, we have the in-house capabilities and resources to undertake and deliver turnkey projects from A to Z as a complete solution provider.`,
+With over 6,000 completed projects around the world and  we have the in-house capabilities and resources to undertake and deliver turnkey projects from A to Z as a complete solution provider.`,
             ar: `تُعد شركة هورايزن شركة رائدة في السوق ومتخصصة في المشاريع المتعلقة بالمياه، بما في ذلك ميزات المياه ومعالجة مياه الشرب ومياه الصرف الصحي.
 ومع أكثر من 6000 مشروع تم تنفيذه حول العالم وثلاثة فروع في لبنان وقطر والإمارات العربية المتحدة، نمتلك القدرات والموارد الداخلية لتنفيذ وتسليم المشاريع المتكاملة بنظام تسليم المفتاح من الألف إلى الياء بصفتنا مزود حلول متكاملة.`
           },

@@ -43,7 +43,7 @@ const Footer = () => {
                   </div>
           
                   <div className="footer-col">
-                    <h3>Zero Percent Discharge</h3>
+                    <h3>Zero Liquid Discharge</h3>
                     <ul>
                     
                      

@@ -923,7 +923,6 @@
 
 .history-wrapper {
   width: 100%;
-  padding: 60px 3%;
   background: #f7f7f5;
   font-family: "Segoe UI", sans-serif;
 }
@@ -934,6 +933,9 @@
   gap: 20px;
   border-bottom: 1px solid #ddd;
   margin-bottom: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+
 }
 
 .history-tabs span {
