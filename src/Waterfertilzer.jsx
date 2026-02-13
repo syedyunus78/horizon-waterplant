@@ -12,43 +12,43 @@ import img12 from "../src/images/Industrial water treatment setup in warehouse.p
 
 
 const Waterfertilzer = () => {
- const swiperImages = [
+  const swiperImages = [
     { img: img11 },
     { img: img12 },
-   
+
   ]
     ;
 
   const sections = [
     {
-  id: 1,
-  title: "About Our Fertilizer Solutions",
-  content: {
-    en: `Fertilizers play a vital role in modern agriculture by supplying essential nutrients that improve soil fertility and enhance crop growth and productivity. Our fertilizer solutions are developed to support sustainable farming practices by ensuring balanced nutrition, higher yields, and improved crop quality across different agricultural applications.
+      id: 1,
+      title: "About Our Fertilizer Solutions",
+      content: {
+        en: `Fertilizers play a vital role in modern agriculture by supplying essential nutrients that improve soil fertility and enhance crop growth and productivity. Our fertilizer solutions are developed to support sustainable farming practices by ensuring balanced nutrition, higher yields, and improved crop quality across different agricultural applications.
 
 Our fertilizer products are formulated to meet the specific nutritional requirements of various crops and soil conditions. By using advanced production techniques and quality-controlled raw materials, we help farmers optimize nutrient absorption, reduce nutrient losses, and achieve consistent agricultural performance while supporting environmental responsibility.`,
-    
-    ar: `تلعب الأسمدة دورًا أساسيًا في الزراعة الحديثة من خلال تزويد التربة بالعناصر الغذائية اللازمة التي تعمل على تحسين خصوبتها وتعزيز نمو المحاصيل وزيادة إنتاجيتها. تم تصميم حلول الأسمدة لدينا لدعم الممارسات الزراعية المستدامة من خلال ضمان توازن العناصر الغذائية، وزيادة الغلة، وتحسين جودة المحاصيل في مختلف التطبيقات الزراعية.
+
+        ar: `تلعب الأسمدة دورًا أساسيًا في الزراعة الحديثة من خلال تزويد التربة بالعناصر الغذائية اللازمة التي تعمل على تحسين خصوبتها وتعزيز نمو المحاصيل وزيادة إنتاجيتها. تم تصميم حلول الأسمدة لدينا لدعم الممارسات الزراعية المستدامة من خلال ضمان توازن العناصر الغذائية، وزيادة الغلة، وتحسين جودة المحاصيل في مختلف التطبيقات الزراعية.
 
 تُصنع منتجاتنا لتلبية الاحتياجات الغذائية الخاصة بمختلف المحاصيل وظروف التربة. ومن خلال استخدام تقنيات إنتاج متقدمة ومواد خام عالية الجودة، نساعد المزارعين على تحسين امتصاص العناصر الغذائية، وتقليل الفاقد، وتحقيق أداء زراعي مستمر مع الحفاظ على المسؤولية البيئية.`
-  },
-  img: img11
-},
-{
-  id: 2,
-  title: "Water Soluble Fertilizer Solutions",
-  content: {
-    en: `Water soluble fertilizers are specially formulated to dissolve completely in water, ensuring rapid nutrient availability and efficient absorption by plants. These fertilizers are ideal for modern irrigation systems such as drip irrigation, fertigation, and foliar application, providing precise and uniform nutrient delivery to crops.
+      },
+      img: img11
+    },
+    {
+      id: 2,
+      title: "Water Soluble Fertilizer Solutions",
+      content: {
+        en: `Water soluble fertilizers are specially formulated to dissolve completely in water, ensuring rapid nutrient availability and efficient absorption by plants. These fertilizers are ideal for modern irrigation systems such as drip irrigation, fertigation, and foliar application, providing precise and uniform nutrient delivery to crops.
 
 Our water soluble fertilizer solutions enhance plant growth, improve root development, and boost crop yield and quality. Designed for high solubility and compatibility, they minimize clogging in irrigation systems and allow farmers to apply nutrients accurately based on crop growth stages. By choosing our water soluble fertilizers, growers benefit from improved efficiency, reduced fertilizer wastage, and sustainable agricultural productivity.`,
-    
-    ar: `تم تصميم الأسمدة القابلة للذوبان في الماء خصيصًا لتذوب بالكامل في الماء، مما يضمن توفر العناصر الغذائية بسرعة وسهولة امتصاصها من قبل النباتات. تُعد هذه الأسمدة مثالية لأنظمة الري الحديثة مثل الري بالتنقيط، والتسميد عبر الري، والتطبيق الورقي، حيث توفر توزيعًا دقيقًا ومتجانسًا للعناصر الغذائية على المحاصيل.
+
+        ar: `تم تصميم الأسمدة القابلة للذوبان في الماء خصيصًا لتذوب بالكامل في الماء، مما يضمن توفر العناصر الغذائية بسرعة وسهولة امتصاصها من قبل النباتات. تُعد هذه الأسمدة مثالية لأنظمة الري الحديثة مثل الري بالتنقيط، والتسميد عبر الري، والتطبيق الورقي، حيث توفر توزيعًا دقيقًا ومتجانسًا للعناصر الغذائية على المحاصيل.
 
 تسهم حلولنا من الأسمدة القابلة للذوبان في تعزيز نمو النباتات، وتحسين تطور الجذور، وزيادة غلة وجودة المحاصيل. وبفضل الذوبان العالي والتوافق الممتاز، تقلل هذه الأسمدة من انسداد أنظمة الري وتمكّن المزارعين من تطبيق العناصر الغذائية بدقة وفق مراحل نمو المحاصيل. باختياركم لهذه الأسمدة، يستفيد المزارعون من كفاءة أعلى، وتقليل الهدر، وزراعة مستدامة ذات إنتاجية محسّنة.`
-  },
-  img: img12
-}
-,
+      },
+      img: img12
+    }
+    ,
 
 
 
@@ -116,7 +116,7 @@ Our water soluble fertilizer solutions enhance plant growth, improve root develo
               <p>{item.content.ar}</p>
             </div>
 
-             <div className={`wm-image ${index === 0 ? "first-image" : ""}`} key={index}>
+            <div className={`wm-image ${index === 0 ? "first-image" : ""}`} key={index}>
               <img src={item.img} alt={item.title} />
             </div>
           </div>

@@ -1,6 +1,5 @@
 import React from 'react'
 import img2 from "../src/images/ROdrinkingSystem/ro2h.jpeg";
-import ufhomeimg from "../src/images/ufhome1.jpeg"
 import img3 from "../src/images/CONTAINERIZED & DESALINATION SYSTEMS-images/desalinationnewhomepage.jpeg";
 import { useNavigate } from "react-router-dom";
 import img23 from "../src/images/ETPTORO/etptoro9.jpeg"
@@ -12,7 +11,7 @@ const Homepage = () => {
       title=" RO DRINKING WATER SYSTEM"
       slug="landscaping-water-features"
       img={img2}
-      containImage   // 👈 only for 2nd card
+      containImage   
     />
 
       <Card title="ETP TO UF SYSTEM" slug="ultra-filtration-etp-ro" img={img23}  />
