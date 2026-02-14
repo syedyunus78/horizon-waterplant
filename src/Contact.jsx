@@ -89,7 +89,10 @@ Message: ${formData.message}
     </div>
 
   <div className="office-info-container big-info">
-  <h2 className="office-title">📍 Head Office Location</h2>
+<h2 className="office-title">
+  📍 Head Office Location &nbsp; | &nbsp; موقع المكتب الرئيسي
+</h2>
+
 
   <div className="office-info">
     <p className="company-name">HORIZON &nbsp; | &nbsp; تاريخنا</p>

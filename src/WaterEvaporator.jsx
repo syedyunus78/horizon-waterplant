@@ -28,7 +28,7 @@ const WaterEvaporator = () => {
 },
 {
   id: 2,
-  title: "Concrete bed Evaporator Solutions",
+  title: " Evaporator Solutions",
    content: {
             en: `Industrial evaporator systems also enable the concentration of liquid waste prior to further treatment or disposal and allow for the recovery of valuable byproducts from process streams. When water conservation is a priority, evaporator technology produces high-quality reusable distillate, making it a critical solution for sustainable industrial operations....`,
             ar: `كما تتيح أنظمة المبخرات الصناعية تركيز المخلفات السائلة قبل معالجتها أو التخلص منها، مع إمكانية استرجاع منتجات ثانوية قيّمة من تيارات العمليات الصناعية. وعندما يكون ترشيد استهلاك المياه أولوية، توفّر تقنية التبخير مُقطَّرًا عالي الجودة قابلًا لإعادة الاستخدام، مما يجعلها حلاً أساسيًا للعمليات الصناعية المستدامة....`

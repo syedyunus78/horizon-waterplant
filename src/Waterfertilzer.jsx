@@ -22,7 +22,23 @@ const Waterfertilzer = () => {
   const sections = [
     {
       id: 1,
-      title: "About Our Fertilizer Solutions",
+     title: "About Our Cooker Solutions",
+
+      content: {
+        en: `Industrial cooker systems play a crucial role in water treatment and Zero Liquid Discharge (ZLD) processes by enabling efficient evaporation and concentration of wastewater. Our cooker solutions are engineered to handle high-salinity and high-contaminant water streams, ensuring optimal recovery and environmental compliance.
+
+Designed with advanced thermal technology and energy-efficient components, our systems maximize evaporation efficiency while minimizing operational costs. We provide customized solutions tailored to different industrial applications, ensuring durability, performance, and sustainable water management.`
+,
+
+      ar: `تلعب أنظمة الطهي الصناعية دورًا مهمًا في معالجة المياه وعمليات التصريف الصفري (ZLD) من خلال تمكين التبخير الفعّال وتركيز مياه الصرف. تم تصميم حلول الطهي لدينا للتعامل مع المياه ذات الملوحة العالية والمحتوى العالي من الملوثات، مما يضمن كفاءة التشغيل والامتثال البيئي.
+
+تم تطوير أنظمتنا باستخدام تقنيات حرارية متقدمة ومكونات موفرة للطاقة لتحقيق أعلى كفاءة تبخير مع تقليل تكاليف التشغيل. نوفر حلولاً مخصصة تناسب مختلف التطبيقات الصناعية، مع ضمان المتانة والأداء وإدارة مستدامة للمياه.`
+},
+      img: img11
+    },
+    {
+      id: 2,
+      title: " Fertilizer Solutions",
       content: {
         en: `Fertilizers play a vital role in modern agriculture by supplying essential nutrients that improve soil fertility and enhance crop growth and productivity. Our fertilizer solutions are developed to support sustainable farming practices by ensuring balanced nutrition, higher yields, and improved crop quality across different agricultural applications.
 
@@ -31,20 +47,6 @@ Our fertilizer products are formulated to meet the specific nutritional requirem
         ar: `تلعب الأسمدة دورًا أساسيًا في الزراعة الحديثة من خلال تزويد التربة بالعناصر الغذائية اللازمة التي تعمل على تحسين خصوبتها وتعزيز نمو المحاصيل وزيادة إنتاجيتها. تم تصميم حلول الأسمدة لدينا لدعم الممارسات الزراعية المستدامة من خلال ضمان توازن العناصر الغذائية، وزيادة الغلة، وتحسين جودة المحاصيل في مختلف التطبيقات الزراعية.
 
 تُصنع منتجاتنا لتلبية الاحتياجات الغذائية الخاصة بمختلف المحاصيل وظروف التربة. ومن خلال استخدام تقنيات إنتاج متقدمة ومواد خام عالية الجودة، نساعد المزارعين على تحسين امتصاص العناصر الغذائية، وتقليل الفاقد، وتحقيق أداء زراعي مستمر مع الحفاظ على المسؤولية البيئية.`
-      },
-      img: img11
-    },
-    {
-      id: 2,
-      title: "Water Soluble Fertilizer Solutions",
-      content: {
-        en: `Water soluble fertilizers are specially formulated to dissolve completely in water, ensuring rapid nutrient availability and efficient absorption by plants. These fertilizers are ideal for modern irrigation systems such as drip irrigation, fertigation, and foliar application, providing precise and uniform nutrient delivery to crops.
-
-Our water soluble fertilizer solutions enhance plant growth, improve root development, and boost crop yield and quality. Designed for high solubility and compatibility, they minimize clogging in irrigation systems and allow farmers to apply nutrients accurately based on crop growth stages. By choosing our water soluble fertilizers, growers benefit from improved efficiency, reduced fertilizer wastage, and sustainable agricultural productivity.`,
-
-        ar: `تم تصميم الأسمدة القابلة للذوبان في الماء خصيصًا لتذوب بالكامل في الماء، مما يضمن توفر العناصر الغذائية بسرعة وسهولة امتصاصها من قبل النباتات. تُعد هذه الأسمدة مثالية لأنظمة الري الحديثة مثل الري بالتنقيط، والتسميد عبر الري، والتطبيق الورقي، حيث توفر توزيعًا دقيقًا ومتجانسًا للعناصر الغذائية على المحاصيل.
-
-تسهم حلولنا من الأسمدة القابلة للذوبان في تعزيز نمو النباتات، وتحسين تطور الجذور، وزيادة غلة وجودة المحاصيل. وبفضل الذوبان العالي والتوافق الممتاز، تقلل هذه الأسمدة من انسداد أنظمة الري وتمكّن المزارعين من تطبيق العناصر الغذائية بدقة وفق مراحل نمو المحاصيل. باختياركم لهذه الأسمدة، يستفيد المزارعون من كفاءة أعلى، وتقليل الهدر، وزراعة مستدامة ذات إنتاجية محسّنة.`
       },
       img: img12
     }

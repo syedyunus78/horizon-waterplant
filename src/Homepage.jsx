@@ -14,7 +14,7 @@ const Homepage = () => {
       containImage   
     />
 
-      <Card title="ETP TO UF SYSTEM" slug="ultra-filtration-etp-ro" img={img23}  />
+      <Card title="ETP&STP" slug="etp&stp" img={img23}  />
     </div>
   );
 };
