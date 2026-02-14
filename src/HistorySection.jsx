@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 
 import historyImg from "../src/images/WhatsApp Image 2026-01-20 at 10.10.01 PM.jpeg";
 import missionImg from "../src/images/missionvisionnew.jpeg";
-import ValuesImg from "../src/images/values.jpeg";
-import goalsImg from "../src/images/WhatsApp Image 2026-01-22 at 10.38.48 PM.jpeg"
 import { useParams } from "react-router-dom";
 
 export default function HistorySection() {

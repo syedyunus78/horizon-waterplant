@@ -17,7 +17,6 @@ import img110 from "../src/images/CONTAINERIZED & DESALINATION SYSTEMS-images/ds
 
 import img6 from "../src/images/ROdrinkingSystem/ronew1manic.jpeg"
 import img7 from "../src/images/ROdrinkingSystem/ro2h.jpeg"
-import img8 from "../src/images/ROdrinkingSystem/ro3.jpeg"
 import img9 from "../src/images/ROdrinkingSystem/ro4.jpeg"
 import img10 from "../src/images/ROdrinkingSystem/roplant2imgnew.jpeg"
 import img11 from "../src/images/ROdrinkingSystem/ro6.jpeg"
