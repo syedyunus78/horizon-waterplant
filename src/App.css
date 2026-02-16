@@ -973,6 +973,7 @@
 
 .history-wrapper {
   width: 100%;
+  padding: 80px 30px;
   background: #f7f7f5;
   font-family: "Segoe UI", sans-serif;
 }
@@ -983,8 +984,8 @@
   gap: 20px;
   border-bottom: 1px solid #ddd;
   margin-bottom: 40px;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
 
 }
 
@@ -1051,7 +1052,15 @@
     flex-direction: column;
     gap: 25px;
   }
+.history-tabs {
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 40px;
+  margin-top: 80px;
+  margin-left: 50px;
 
+}
   .history-image img {
     height: 300px;   /* reduce big height on mobile */
   }
@@ -1084,7 +1093,7 @@
 
 @media (max-width: 480px) {
   .history-wrapper {
-    padding: 25px 4%;
+    padding: 280px 8%;
   }
 
   .history-image img {
@@ -1102,7 +1111,7 @@
 
 .contact-container {
   width: 100%;
-  /* padding: 60px 10%; */
+  padding: 60px 2%;
   background: #f7f7f7;
 }
 
